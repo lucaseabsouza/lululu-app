@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>LuLuLu App</title>
+  <link rel="shortcut icon" href="../lululu-app/img/Logo_LuLuLu_App_preta.png" type="image/x-icon"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+    <header id="title">
+      <div class="container-fluid">
+        <nav class="navbar navbar-light">
+          <a class="navbar-brand" href="#"><img src="../lululu-app/img/Logo_LuLuLu_App_preta.png" style="width: 5%;" alt="">LuLuLu App</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Produto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <hr style="color: black">
+          <div class="row">
+            <div class="col-lg-6">
+              <h1>
+                Encontre agora mesmo um doguinho para ser seu melhor amigo!
+              </h1>
+              <button type="button" class="btn btn-outline-dark btn-lg">
+                <div class="fa-brands fa-apple"></div>
+                Download
+              </button>
+              <button type="button" class="btn btn-outline-dark btn-lg">
+                <div class="fa-brands fa-google-play"></div>
+                Download
+              </button>
+            </div>
+            <figure class="col-lg-6" style="display: flex;">
+              <video src="./video/video_doguinho.mp4" style="width: 85%; border-radius: 5%; margin: 10% auto; align-self: center;" autoplay="true" loop="true"></video>
+            </figure>
+          </div>
+      </div>
+    </header>
+    <main>
+      <section id="beneficies">
+        <div class="row">
+          <div class="beneficies-box col-lg-4">
+            <i class="icon fa-solid fa-user-check fa-4x"></i>
+            <h3>
+              Fácil de usar
+            </h3>
+            <p>
+              Tão fácil de usar que até seu doguinho consegue
+            </p>
+          </div>
+          <div class="beneficies-box col-lg-4">
+            <i class="icon fa-solid fa-bullseye fa-4x"></i>
+            <h3>
+              Os doguinhos mais fofos
+            </h3>
+            <p>
+              Aqui você irá encontrar os doguinhos mais fofos
+            </p>
+          </div>
+          <div class="beneficies-box col-lg-4">
+            <i class="icon fa-solid fa-heart fa-4x"></i>
+            <h3>
+              Seu melhor amigo lhe espera!
+            </h3>
+            <p>
+              Seu doguinho lhe aguarda
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="titles_carousel">Criador - Lucas Eduardo<br>Minas Gerais, Brasil</div>
+            <img class="carousel-image" src="../lululu-app/img/img_lucas.jpg" alt="Imagem do criador (Lucas Eduardo)">
+          </div>
+          <div class="carousel-item">
+            <div class="titles_carousel">Lupita</div>
+            <img class="carousel-image" src="../lululu-app/img/lupita-1.jpg" alt="Lupita (minha doguinha)">
+          </div>
+          <div class="carousel-item">
+            <div class="titles_carousel">Luna</div>
+            <img class="carousel-image" src="../lululu-app/img/img_Luna_sofa.jpg" alt="Luna (minha outra doguinha)">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel" role="button" data-bs-target="#carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" role="button" data-bs-target="#carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </section>
+
+      <div class="card-group row row-cols-auto text-center">
+        <section class="card">
+          <div class="card header header_cards">Tô triste :(</div>
+          <img src="../lululu-app/img/imgs_dogs_IA/Km5P2OOz2YAzfaHepw0B.png" alt="" class="card-img-top-center">
+          <div class="card-body">
+            <div class="card-title">Não deixe o doguinho triste :(</div>
+            <small class="card-text">Adote seu doguinho, é fácil, rápido e não custa nada</small>
+            <br>
+            <a class="btn btn-lg btn_cards btn-outline-dark btn-block btn-lg" href="#">Quero adotar!</a>
+          </div>
+        </section>
+  
+        <section class="card">
+          <div class="card header header_cards">Mas posso ficar feliz ;)</div>
+          <img src="../lululu-app/img/imgs_dogs_IA/2BUv80fpLGOW0UkwOuSacW.jpg" alt="" class="card-img-top-center">
+          <div class="card-body">
+            <div class="card-title">Quero ser seu companheiro</div>
+            <small class="card-text">Vou ser seu melhor amigo!</small>
+            <br>
+            <a class="btn btn-lg btn_cards btn-outline-dark btn-block btn-lg" href="#">Quero adotar!</a>
+          </div>
+        </section>
+  
+        <section class="card">
+          <div class="card header header_cards">É de graça</div>
+          <img src="../lululu-app/img/imgs_dogs_IA/q771cTQEcCScA6O0iYCwae.jpg" alt="" class="card-img-top-center">
+          <div class="card-body">
+            <div class="card-title">Mas vale muito!</div>
+            <small class="card-text">Ajude a combater os maus tratos!</small>
+            <br>
+            <a class="btn btn-lg btn_cards btn-outline-dark btn-block btn-lg" href="#">Quero adotar!</a>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>

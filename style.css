@@ -1,0 +1,107 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container-fluid{
+    background-color: rgb(255, 163, 163);
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #000;
+    padding: 5%;
+    margin-top: 5%;
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn{
+    margin: 0% auto 10% 5%
+}
+
+.navbar-expand-lg{
+    justify-content: space-between;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#beneficies{
+    padding: 3% 10%;
+    background-color: #fff;
+}
+
+.beneficies-box{
+    justify-content: center;
+    text-align: center;
+}
+
+.icon{
+    margin-bottom: 2%;
+}
+
+header{
+    color: rgb(255, 163, 163);
+}
+
+p{
+    font-size: 0.9rem;
+}
+
+.titles_carousel{
+    font-size: 150%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 2%;
+}
+
+#carousel{
+    padding: 5% 10%;
+    background-color: rgb(255, 163, 163);
+    text-align: center;
+}
+
+.carousel-image{
+    width: 30%;
+    border-radius: 100%;
+}
+
+.card{
+    border:none
+}
+
+.card > img{
+    margin: 10%;
+    border-radius: 100%;
+}
+
+.header_cards{
+    margin: 2%;
+    background-color: rgb(255, 163, 163);
+    color: #212529;
+    text-decoration: solid;
+    font-size: 120%;
+}
+
+.card-title{
+    font-size: 25px;
+}
+
+.btn_cards{
+    background-color: rgb(255, 163, 163);
+    margin: 1%;
+    border: none;
+}
