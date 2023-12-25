@@ -58,6 +58,10 @@ header{
     color: rgb(255, 163, 163);
 }
 
+hr{
+    color: black;
+}
+
 p{
     font-size: 0.9rem;
 }
