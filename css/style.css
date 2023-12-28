@@ -20,7 +20,7 @@ h3{
 }
 
 .btn{
-    margin: 0% auto 10% 5%
+    margin: 1%;
 }
 
 .navbar-expand-lg{
@@ -109,4 +109,10 @@ p{
     background-color: rgb(255, 163, 163);
     margin: 1%;
     border: none;
+}
+
+@media (max-width: 991px) {
+    h1{
+        text-align: center;
+    }
 }
