@@ -69,7 +69,7 @@ p{
 /*Carousel*/
 
 .titles_carousel{
-    font-size: 150%;
+    font-size: 200%;
     margin-bottom: 2%;
 }
 
@@ -78,7 +78,7 @@ p{
 }
 
 .carousel-image{
-    width: 30%;
+    width: 60%;
 }
 
 /*Cards*/
