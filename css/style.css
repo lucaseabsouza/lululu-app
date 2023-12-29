@@ -116,3 +116,12 @@ p{
         text-align: center;
     }
 }
+
+.social_media{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social_media_icons{
+    margin-top: 5%;
+}
