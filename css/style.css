@@ -33,6 +33,8 @@ p{
     font-size: 0.9rem;
 }
 
+/*NavBar*/
+
 .navbar-expand-lg{
     justify-content: space-between;
 }
@@ -49,6 +51,8 @@ p{
     font-size: 1.2rem;
 }
 
+/*Beneficies*/
+
 #beneficies{
     padding: 3% 10%;
     background-color: #fff;
@@ -61,6 +65,8 @@ p{
 .icon{
     margin-bottom: 2%;
 }
+
+/*Carousel*/
 
 .titles_carousel{
     font-size: 150%;
@@ -75,9 +81,15 @@ p{
     width: 30%;
 }
 
+/*Cards*/
+
 .imgs_cards{
     width: 80%;
     margin: auto;
+}
+
+.card-title{
+    font-size: 25px;
 }
 
 .header_cards{
@@ -87,15 +99,15 @@ p{
     font-size: 120%;
 }
 
-.card-title{
-    font-size: 25px;
-}
+/*Responsible*/
 
 @media (max-width: 991px) {
     h1{
         text-align: center;
     }
 }
+
+/*Social Media Footer*/
 
 .social_media{
     display: flex;
