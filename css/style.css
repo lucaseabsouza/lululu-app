@@ -1,3 +1,5 @@
+/*Compound css*/
+
 body, h1, h3, .nav-link, .titles_carousel{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -17,6 +19,8 @@ header, #carousel, .header_cards, .btns_cards{
 .beneficies-box, #carousel{
     text-align: center;
 }
+
+/*Selectors*/
 
 h1, hr{
     color: #000;
